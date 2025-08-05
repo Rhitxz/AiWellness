@@ -1,6 +1,7 @@
 'use client'
 import Image from "next/image";
 import Link from "next/link";
+import footer from "./_components/footer/page";
 import { useRouter } from "next/navigation";
 export default function Home() {
  const router = useRouter();
@@ -13,6 +14,7 @@ export default function Home() {
 
     HI there 
     </button>
+    
   </div>
   );
 }
