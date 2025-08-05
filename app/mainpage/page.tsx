@@ -33,8 +33,14 @@ const router = useRouter();
 
                     <Button image="https://cdn-icons-png.flaticon.com/128/7145/7145123.png" name="Stressed"></Button>
                     </div>
+                    <div onClick={()=>router.push("/answers/energetic")}>
+
                     <Button image="https://cdn-icons-png.flaticon.com/128/2788/2788983.png" name="Energetic"></Button>
+                    </div>
+                    <div onClick={()=>router.push("/answers/peaceful")}>
+
                     <Button image="https://cdn-icons-png.flaticon.com/128/18068/18068044.png" name="Peaceful"></Button>
+                    </div>
 
                 </div>
             </div>
