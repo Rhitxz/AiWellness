@@ -1,0 +1,23 @@
+import Button from "../_components/page";
+
+export default function yes(){
+
+    return(
+        <div className="flex flex-col items-center">
+            <div className="text-4xl">Wellness Assistant </div>
+            <div>Your personal AI companion for mindful moments and gentle guidance. Share how you're feeling and receive personalized wellness suggestions</div>
+            <div className=" bg-amber-400 flex flex-col items-center p-5">
+                <div className="text-black text-2xl">
+                    How are you felling Today 
+                </div>
+                <div>
+                    Select a mood or describe how you feel today
+                </div>
+                <div className="grid grid-cols-3 grid-rows-3 items-center space-x-2 space-y-2">
+                    <Button image="https://cdn-icons-png.flaticon.com/128/2805/2805872.png" name="Tired"></Button>
+
+                </div>
+            </div>
+        </div>
+    )
+}
