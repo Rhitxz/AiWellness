@@ -1,3 +1,5 @@
+import Refresh from "@/app/_components/refresh/page";
+
 const energeticSuggestions = [
   "Tackle a task you've been putting off",
   "Do a quick workout or dance session",
@@ -18,6 +20,9 @@ export default function energy(){
     return(
         <div>
            {energeticSuggestions[Math.floor(Math.random() * 10) + 1]}
+           <div>
+            <Refresh/>
+           </div>
         </div>
     )
 }

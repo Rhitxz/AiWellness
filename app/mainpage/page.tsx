@@ -5,7 +5,7 @@ import Button from "../_components/button/page";
 export default function yes(){
 const router = useRouter();
     return(
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center space-y-4">
             <div className="text-4xl">Wellness Assistant </div>
             <div>Your personal AI companion for mindful moments and gentle guidance. Share how you're feeling and receive personalized wellness suggestions</div>
             <div className=" bg-amber-400 flex flex-col items-center p-5">
