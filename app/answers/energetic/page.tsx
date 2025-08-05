@@ -21,7 +21,7 @@ export default function energy(){
         <div>
            {energeticSuggestions[Math.floor(Math.random() * 10) + 1]}
            <div>
-            <Refresh/>
+        
            </div>
         </div>
     )
