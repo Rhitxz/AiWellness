@@ -14,7 +14,7 @@ export default function Home() {
 
     HI there 
     </button>
-    <footer/>
+    
   </div>
   );
 }

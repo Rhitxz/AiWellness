@@ -1,6 +1,6 @@
 "use client"
 import { useRouter } from "next/navigation";
-import Button from "../_components/page";
+import Button from "../_components/button/page";
 import Answers from "../answers/tired/page";
 import Tired from "../answers/tired/page";
 export default function yes(){
