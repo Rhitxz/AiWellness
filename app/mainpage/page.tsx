@@ -15,6 +15,9 @@ export default function yes(){
                 </div>
                 <div className="grid grid-cols-3 grid-rows-3 items-center space-x-2 space-y-2">
                     <Button image="https://cdn-icons-png.flaticon.com/128/2805/2805872.png" name="Tired"></Button>
+                    <Button image="https://cdn-icons-png.flaticon.com/128/3475/3475118.png" name="Anxious"></Button>
+                    <Button image="https://cdn-icons-png.flaticon.com/128/4814/4814852.png" name="Happy"></Button>
+                    <Button image="https://cdn-icons-png.flaticon.com/128/7145/7145123.png" name="Stressed"></Button>
 
                 </div>
             </div>
